@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600;800&family=Cormorant+Infant:ital,wght@0,600;0,700;1,300;1,400&family=Hind:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    font-family: 'Assistant', sans-serif;
+}
+body{
+    /* background-color:  hsl(216deg 38.46% 94.9%); */
+    background-color: #edf1f7;
+    scroll-behavior: smooth;
+}
+.navigation-bar{
+    background-color: #bfcdda;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-top: 12px;
+    position: relative;
+    left: 13%;
+}
+.logo >a{
+    font-size: 40px;
+    color: #245894;
+    font-weight: 600;
+}
+.logo span{
+    margin-left: 20px;
+    font-weight: 700;
+}
+li{
+    display: inline-block;
+}
+li >a{
+    color:#609eca;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.1s  ease;
+}
+li a:hover{
+    color: rgb(54, 181, 255);
+}
+.account-box{
+    display:flex;
+}
+.login-box,.singup-box{
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-right: 10px;
+    
+}
+.login-box a,.singup-box a{
+    transition: all 0.1s  ease;
+    color:#2c4c54;
+}
+.account-box a:hover{
+    color:rgb(54, 181, 255);
+}
+.home-page-section .container form{
+    position: relative;
+    top:10%;
+    left: 100px;
+}
+.container{
+    height: 600px;
+    overflow: hidden;
+}
+.content .head-title{
+    position: relative;
+    margin-left: 15px;
+    top:28px;
+    color: #5c798f;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.head-title span{
+    color: rgb(54, 181, 255);
+}
+.discription{
+    z-index: 1;
+    text-transform: capitalize;
+    font-style: italic;
+    position: relative;
+    top:10px;
+    line-height: 35px;
+    margin-left:20px;
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #79a6c7d2;
+}
+.home-image{
+    position: absolute;
+    top:80px;
+    left: 40.8%;
+    transform: scale(1.2);
+}
+.pickup-form{
+    position: relative;
+    width: 500px;
+    top:18%;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: #e4e9f1;
+    border-radius: 15px;
+}
+.input-form span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #245894;
+}
+.pickup-form input, .details{
+    position: relative;
+    left: -21%;
+}
+.pickup-form input{
+  position: relative;
+  left: -21%;
+  padding-right: 10px;
+  border:none;
+  outline: none;
+  text-transform: capitalize;
+  margin-top: 10px;
+  height: 30px;
+}
+.pickup-form input[type="text"],
+.pickup-form input[type="date"],
+.pickup-form input[type="time"]{
+    background: transparent;
+    width: 150px;
+    border-bottom: 2px solid #b6cae9;
+    font-size: 18px;
+}
+.form-button{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Assistant', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color:  rgb(39, 202, 243);
+    transition: all 300ms ease;
+}
+.form-button:hover{
+    background-color: #5c838f;
+}
+.form-button:active{
+    transform: scale(0.9);
+}
+.car-container{
+    overflow: hidden;
+}
+.featured-car{
+    position: relative;
+    height: 850px;
+    left: 150px;
+}
+.featured-car .featured-heading{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+    position: relative;
+    top:30px;
+    left:20px;
+}
+.featured-car .viewmore{
+    position: relative;
+    right: -900px;
+}
+.viewmore a{
+    color: #5c798f;
+    font-weight: 600;
+}
+.car-card{
+    box-shadow: 2px 2px 90px rgba(0, 0, 0, 0.171);
+}
+.cars-list .car-card{
+    height: 350px;
+    margin: 12px;
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 10px;
+    backdrop-filter: blur(15px);
+}
+.cars-list img{
+    border-radius: 18px;
+    height: 200px;
+    width: 290px;
+}
+.car-content span{
+    font-weight:400;
+    font-size: 13px;
+    text-align: left;
+    padding-right: 50px;
+}
+.car-content p{
+    font-size: 22px;
+    font-weight:500 ;
+}
+.car-content strong{
+    font-size: 20px;
+    font-weight: 500;
+}
+.like{
+    margin-right: 20px;
+    width: 30px;
+    background-color: rgba(54, 181, 255,0.2);
+    border-radius: 15px;
+    display: inline-block;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    transition: 0.8s all ease;
+}
+.like:hover{
+    cursor: pointer;
+    color: rgba(255, 144, 54, 1);
+    background-color: rgba(255, 144, 54, 0.2);
+}
+.car-content input[type="submit"]{
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    border: transparent;
+    background-color: rgb(54, 181, 255);
+    filter: drop-shadow(5px 5px 10px rgba(54,181,255,0.7));
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.car-content input[type="submit"]:active{
+    transform: scale(0.9);
+}
+.project-team{
+    overflow: hidden;
+}
+.project-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.team-heading{
+    font-size: 35px;
+    position: relative;
+    left: 170px;
+    font-weight: 600;
+    font-family:'Hind', sans-serif;
+}
+.member-name{
+    font-size: 23px;
+    font-weight: 800;
+    font-family:sans-serif;
+    color:rgb(5, 2, 2);
+}
+.profile-pic{
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 19px black;
+}
+/* .abhishek-pic{
+    height: 10px;
+} */
+.data{
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    filter: drop-shadow(2px 4px 10px gray);
+    
+}
+.data>a{
+    color: black;
+    transition: all 0.2s ease;
+}
+#team-leader{
+    position: relative;
+    left: 160px;
+}
+.footer{
+    overflow: hidden;
+    background-color: #e4e9f1;
+}
+.foot{
+    position: relative;
+    bottom: 0;
+    left: 270px;
+}
+.footer-data{
+    gap: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+.foot-data-main{
+    color: #4F5D78;
+    padding-bottom: 20px;
+    line-height: 24px;
+    width: 280px;
+}
+.foot-data{
+    line-height: 30px;
+}
+.foot-data a{
+    color: #4F5D78;
+    transition: all 0.2s ease;
+}
+.foot-data a:hover{
+    color: rgb(54, 181, 255);
+}
+.foot-heading{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #32324E;
+    font-weight: 500;
+}
