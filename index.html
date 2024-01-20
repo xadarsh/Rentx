@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENTX</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navigation-bar">
+        <div class="navdiv">
+            <div class="logo"> <a href="index.html"><span>RENTX</span></a> </div>
+            <ul class="nav-item">
+                <li><a href="#head-title">HOME |</a></li>
+                <li><a href="#team-members">ABOUT |</a</li>
+                <li><a href="#featured-car">SERVICE |</a></li>
+                <li><a href="#featured-car">CARS |</a></li>
+                <li><a href="https://www.linkedin.com/in/xadarsh" target="_blank">CONTACT</a></li>
+            </ul>
+            <div class="account-box">
+                <div class="login-box">
+                    <a href="Login_page/loginpage.html">Login</a>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="singup-box">
+                    <a href="Login_page/loginpage.html">sign up</a>
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-page-section" id="home">
+        <div class="container">
+            <div class="content">
+                <div class="head-title" id="head-title">
+                    Easy way<br> to rent your <span>dream car</span><br>at an affordable <span>price!</span>
+                    <div class="discription">
+                        <p>Easy Bookings | Flexible Plans | Mobile Ready <br> Recommendations and User Feedback <br>Quick and Secure Payments | Localization | Flexible System <br>
+                            Social Media Integration | Communication and Updates</p>
+                    </div>
+                    <div class="home-image">
+                        <img src="image/hero-banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pickup-form">
+                <form action="" >
+                    <div class="input-form">
+                        <span class="details">Pick Up Details:</span> 
+                        <br><input type="text" placeholder="pick up location" id="pick-up-location">
+                        <input type="date" placeholder="pick up date" id="pick-up-date">
+                        <input type="time" placeholder="pick up time" id="pick-up-time">
+                    </div>
+                    <div class="input-form">
+                        <span class="details">Drop Off Details:</span> 
+                        <br><input type="text" placeholder="drop off location" id="drop-off-location">
+                        <input type="date" placeholder="drop off date" id="drop-off-date">
+                        <input type="time" placeholder="drop off time" id="drop-off-time">
+                    </div>
+                    <input type="button" value="Search" class="form-button">
+                </form>
+            </div>
+        </div>
+       
+    </div>
+    <div class="car-container">
+        <div class="featured-car" id="featured-car">
+            <span class="featured-heading">Featured Cars</span>
+            <div class="view-more">
+                <span class="viewmore"><a href="#">View more<i class="ri-arrow-right-line"></i></a></span>
+            </div>
+            <ul class="cars-list">
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-1.jpg" alt="Toyota RAV4 2021" width="427" height="285">
+                        </figure>
+                        <div class="car-content">
+                            <p>Toyota RAV4</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Hybrid</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>6.1km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹10000</strong>/Day</span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-2.jpg" alt="Toyota RAV4 2021" width="427" height="250">
+                        </figure>
+                        <div class="car-content">
+                            <p>BMW 3 Series</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Gasoline</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>8.2km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹19998</strong>/Day</span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-3.jpg" alt="Toyota RAV4 2021">
+                        </figure>
+                        <div class="car-content">
+                            <p>Volkswagen T-Cross</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Gasoline</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>5.3km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹4999</strong>/Day</span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now">
+                        </div>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-4.jpg" alt="Toyota RAV4 2021">
+                        </figure>
+                        <div class="car-content">
+                            <p>Cadillac Escalade</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Gasoline</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>7.5km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹7000</strong><small>/Day</small></span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-5.jpg" alt="Toyota RAV4 2021" >
+                        </figure>
+                        <div class="car-content">
+                            <p>BMW 4 Series GTI</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Hybrid</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>7.1km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹10000</strong>/Day</span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="car-card">
+                        <figure>
+                            <img src="image/car-6.jpg" alt="Toyota RAV4 2021">
+                        </figure>
+                        <div class="car-content">
+                            <p>BMW 4 Series</p>
+                            <i class="ri-group-line"></i></i> <span>4 Peoples</span> 
+                            <i class="ri-leaf-line"></i></i> <span>Hybrid</span><br>
+                            <i class="ri-thunderstorms-line"></i></i> <span>7.9km/liter</span>
+                            <i class="ri-robot-2-line"></i> <span>Automatic</span>
+                            <hr>
+                            <br><span><strong>₹11000</strong>/Day</span>
+                            <div class="like"><i class="ri-heart-3-line"></i></div><input type="submit" value="Rent Now" id="rent-now">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="project-team">
+        <p class="team-heading">Project Team:</p>
+        <div class="project-content">
+            <ul class="team-members" id="team-members">
+                <li>
+                    <div class="data" id="team-leader">
+                        <img src="image/Adarsh_2.jpeg" alt="Team Leader Adarsh Maurya" class="profile-pic">
+                        <p class="member-name">Adarsh Maurya</p> 
+                        <p>Team Leader</p>
+                        <p>Roll No.-2202840100018</p>
+                        <a href="https://www.linkedin.com/in/xadarsh" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://www.instagram.com/xadarsh_x" target="_blank"><i class="ri-instagram-line"></i></a>
+                        <a href="https://github.com/xadarsh" target="_blank"><i class="ri-github-fill"></i></a>
+                        <a href="https://t.me/xadarsh_x" target="_blank"><i class="ri-telegram-fill"></i></a>
+                        <a href="https://twitter.com/xadarsh541_x" target="_blank"><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <div class="data">
+                        <img src="image/Aditya.jpeg" alt="" class="profile-pic">
+                        <p class="member-name">Aditya Srivastva</p> 
+                        <p>Team Member</p>
+                        <p>Roll No.-2202840100026</p>
+                        <a href="https://www.linkedin.com/in/aditya-srivastava-2528ba2a3" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://www.instagram.com/mr.___introvert__" target="_blank"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-github-fill"></i></a>
+                        <a href="#"><i class="ri-telegram-fill"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="data">
+                        <img src="image/abhi.jpg" alt="" class="profile-pic" id="abhishek-pic">
+                        <p class="member-name">Abhishek Chauhan</p> 
+                        <p>Team member</p>
+                        <p>Roll No.-2202840100010</p>
+                        <a href="https://www.linkedin.com/in/abhishek-chauhan-3a8679292" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="#"><i class="ri-briefcase-fill"></i></a>
+                        <a href="https://www.instagram.com/abhichauhan__17" target="_blank"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-github-fill"></i></a>
+                        <a href="https://t.me/Abhichauhan_17" target="_blank"><i class="ri-telegram-fill"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="footer-data">
+                <div class="foot-data-main">
+                    <span class="foot-heading">RENTX</span>
+                    <p>Search for cheap rental cars in BHARAT. With a diverse fleet of 19,000 vehicles, Rentx offers its consumers an attractive and fun selection.</p>
+                </div>
+                <div class="foot-data">
+                    <p class="foot-heading">Company</p>
+                    <a href="#team-members" target="_blank">About us</a><br>
+                    <a href="#">Pricing Plans</a><br>
+                    <a href="https://www.linkedin.com/in/xadarsh" target="_blank">Contact us</a>
+                </div>
+                <div class="foot-data">
+                    <p class="foot-heading">Support</p>
+                    <a href="#">Help center</a><br>
+                    <a href="#">Ask a question</a><br>
+                    <a href="#">Privacy policy</a><br>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
