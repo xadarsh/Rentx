@@ -328,6 +328,9 @@ li a:hover{
     color: #4F5D78;
     transition: all 0.2s ease;
 }
+.featured-car{
+    overflow-y: scroll;
+}
 .foot-data a:hover{
     color: rgb(54, 181, 255);
 }
